@@ -18,7 +18,7 @@ body{
     color:aliceblue;
     margin-top: 50px;
     margin-bottom: 10px;
-    padding: 0 130px;
+    padding: 0 100px;
 }
 .primary-btn{
     height: 64px;
@@ -36,3 +36,55 @@ body{
     color: darkgrey;
     margin-bottom: 20px;
 }
+/* Donate Style */
+.donate{
+    text-align: center;
+    background-color: aliceblue;
+}
+.donate-title{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 50px 0 20px 0;
+    color: black;
+}
+.donate-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: darkgrey;
+    margin-bottom: 20px;
+    padding: 0 160px;
+}
+.total-amount{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.amount{
+    background: hsl(189, 10%, 73%);
+    width: 100px;
+    height: 120px;
+    margin-top: 30px;
+    padding: 0px 30px;
+    border: 2px solid hsl(189, 10%, 73%);
+}
+.amount .amount-title{
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+}
+.amount:hover{
+    background-color: darksalmon;
+    border: 2px solid darksalmon;
+    color: darksalmon;
+}
+.donate-title-description{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 400;
+}
+hr{
+    color: darkgray;
+    margin-bottom: 40px;
+}
+
