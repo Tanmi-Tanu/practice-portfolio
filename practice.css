@@ -22,12 +22,14 @@ body{
 }
 .primary-btn{
     height: 64px;
+    width: 300px;
     border-radius: 5px;
     background: #FD6E0A;
     color: aliceblue;
     font-size: 20px;
     font-weight: 700;
     border: 0;
+    margin-top: 40px;
     padding: 18px 35px;
 }
 .header-description{
@@ -37,9 +39,13 @@ body{
     margin-bottom: 20px;
 }
 /* Donate Style */
+main{
+   
+}
 .donate{
     text-align: center;
-    background-color: aliceblue;
+    background-color: rgb(234, 241, 248);
+    padding-bottom: 40px;
 }
 .donate-title{
     font-size: 35px;
@@ -87,4 +93,137 @@ hr{
     color: darkgray;
     margin-bottom: 40px;
 }
+/* Donate Style */
+.donate-plan{
+    background: antiquewhite;
+    text-align: center;
+    padding: 40px 0;
+}
+.donate-plan-title{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 50px 0 0 0;
+    color: black;
+}
+.donate-plan-description{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 150px;
+}
+.donate-family{
+    display: flex;
+    gap: 0px;
+    text-align: left;
+    margin-top: 50px;
+}
+.food-family{
+    width: 280px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.shelter-family{
+    width: 280px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.education-child{
+    width: 280px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.food-family-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.food-family-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+/* Donate Plan Style */
 
+.main-donation{
+    display: flex;
+    gap: 24px;
+    background: #FFF8F3;
+    padding: 30px 20px;
+}
+.about-donation{
+    align-items: center;
+
+}
+.about-donation-title{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 50px 170px 0 0;
+    color: black;
+}
+.about-donation-description{
+    margin-top: 20px;
+    padding: 0px 130px 0 0;
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* Contact Style */
+.contact{
+    text-align: center;
+}
+.contact-title{
+    font-size: 35px;
+    font-weight: 800;
+    color: black;
+    margin-top: 50px;
+}
+.contact-description{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0px 130px;
+    color: darkgrey;
+    font-size: 20px;
+    font-weight: 400;
+}
+.contact-form{
+    background: #FFF8F3;
+    width: 600px;
+    padding: 40px;
+}
+#mail{
+    border-radius: 5px 0 0 5px;
+    background: #FFFFFF;
+    color: rgb(155, 154, 154);
+    font-size: 20px;
+    border: 0;
+    padding: 10px 25px;
+}
+.btn {
+    height: 48px;
+    border-radius: 0 5px 5px 0;
+    background: #FD6E0A;
+    color: aliceblue;
+    font-size: 20px;
+    border: 0;
+    padding: 10px 25px;
+}
+
+.footer{
+    font-size: 16px;
+    color: #474747;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
